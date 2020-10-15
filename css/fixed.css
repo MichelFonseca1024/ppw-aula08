@@ -1,0 +1,36 @@
+div {
+  box-sizing: border-box;
+}
+
+header {
+  width: 960px;
+  height: 40px;
+  background-color: #c2c2c2;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 20px auto;
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1,
+.box2,
+.box3 {
+  height: 400px;
+  background-color: #c2c2c2;
+}
+
+.box1 {
+  width: 520px;
+}
+
+.box2 {
+  width: 200px;
+}
+
+.box3 {
+  width: 200px;
+}
